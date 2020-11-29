@@ -1,11 +1,6 @@
-<h1 align="center">readme generator </h1>
-  <br />
-
- <h1 align="center">readme generator </h1>
-  <br />
 
   ## Description
-  readme generator with node.js
+  README.md generator created with node.js
   
   ![readme](readme.gif)
   https://drive.google.com/file/d/15pX39zWHzuHud2yE-xQqz5j_y6Qe9sP8/view
@@ -19,22 +14,12 @@
   - [License] (#license)
 
   ## Installation
-  npm init
+  `npm init`
+  
+  `npm install inquirer`
 
   ## Usage
-  run from command line of root of respotiory
-
-  ## Contributers
-  jessm91
-
-  ## Tests
-  no
-
-  ## License
-  This application is covered by the Apache license.
-
-  ## Questions
-  Find me on Github: [jessm91](https://github.com/jessm91)
-  <br />
-  Email me with any questions: jmangiam@asu.edu
-  <br />
+  Run the following terminal command at the root of your respository and answer the prompted questions
+  
+  `node index.js`
+ 
