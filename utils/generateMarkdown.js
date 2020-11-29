@@ -1,11 +1,11 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  <h1 align="center">${answers.projectTitle} </h1>
+  <h1 align="center">${data.projectTitle} </h1>
   <br />
 
   ## Description
-  ${answers.description}
+  ${data.description}
 
   ## Table of Contents
   - [Description] (#description)
@@ -16,24 +16,24 @@ function generateMarkdown(data) {
   - [License] (#license)
 
   ## Installation
-  ${answers.installation}
+  ${data.installation}
 
   ## Usage
-  ${answers.usage}
+  ${data.usage}
 
   ## Contributers
-  ${answers.contributing}
+  ${data.contributing}
 
   ## Tests
-  ${answers.tests}
+  ${data.tests}
 
   ## License
-  This application is covered by the ${answers.license} license.
+  This application is covered by the ${data.license} license.
 
   ## Questions
-  Find me on Github: [${answers.username}](https://github.com/${answers.username})
+  Find me on Github: [${data.username}](https://github.com/${data.username})
   <br />
-  Email me with any questions: ${answers.email}
+  Email me with any questions: ${data.email}
   <br />
 
 `;
